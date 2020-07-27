@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-"homepage": "./",
+  "homepage": "./",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -11,6 +11,7 @@
     "@types/node": "^14.0.26",
     "@types/react": "^16.9.43",
     "@types/react-dom": "^16.9.8",
+    "antd": "^4.5.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
@@ -18,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-"build": "react-scripts build  && del /s/f/q ..\\brabadan.github.io\\portfolio\\* && robocopy /E build ../brabadan.github.io/portfolio *",
+    "build": "react-scripts build  && del /s/f/q ..\\brabadan.github.io\\portfolio\\* && robocopy /E build ../brabadan.github.io/portfolio *",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
